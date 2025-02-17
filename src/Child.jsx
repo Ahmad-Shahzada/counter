@@ -16,7 +16,7 @@ const Child = ({title}) => {
         <button 
           onClick={counters} 
           className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-lg shadow-lg transition-all duration-300">
-          Increase
+          Click Me
         </button>
       </div>
     </div>
