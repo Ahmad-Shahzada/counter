@@ -7,7 +7,7 @@ const Child = ({title}) => {
     }
     useEffect(() => {
         console.log(counter)
-      });
+      },[]);
   return (
     <div className="h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-purple-500">
       <div className="h-[400px] w-[500px] bg-white shadow-2xl rounded-2xl flex flex-col items-center justify-center p-6 mx-5">
